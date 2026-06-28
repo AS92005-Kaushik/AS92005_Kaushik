@@ -15,7 +15,10 @@ background:linear-gradient(to right, #006400, #00ff7f);
 padding:20px;
 overflow-x: hidden;
 }
-
+.logo{
+width: 300px;
+height: 100p;
+}
 /*header*/
 header{
 background:black;
