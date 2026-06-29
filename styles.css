@@ -116,9 +116,9 @@ text-align:center;
 }
 
 .card img{
-width:200%;
-max-width:400px;
-height:150px;
+width:100%;
+max-width:280px;
+height:200px;
 object-fit: contain;
 margin: 0 auto;
 display: block;
