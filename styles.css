@@ -115,6 +115,15 @@ line-height:1.6;
 text-align:center;
 }
 
+.card img{
+width:100%;
+max-width:200px;
+height:150px;
+object-fit: contain;
+margin: 0 auto;
+display: block;
+}
+
 .card h3 {
     margin-top: 10px;
 }
