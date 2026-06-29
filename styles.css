@@ -117,8 +117,8 @@ text-align:center;
 
 .card img{
 width:100%;
-max-width:280px;
-height:200px;
+max-width:380px;
+height:300px;
 object-fit: contain;
 margin: 0 auto;
 display: block;
