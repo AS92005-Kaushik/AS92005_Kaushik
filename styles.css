@@ -19,7 +19,7 @@ position: relative;
 position: absolute;
 top: 20px;
 left: 20px;
-width: 100px;
+width: 90px;
 height: auto;
 z-index:10;
 pointer-events:none;
