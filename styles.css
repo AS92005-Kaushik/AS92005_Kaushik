@@ -64,7 +64,10 @@ background:#d8ead0;
 padding :8px;
 border-radius:15px;
 display: flex;
-gap:5px;
+gap:15px;
+width: 80%;
+max-width: 800px;
+justify-content: space-around;
 
 }
 
@@ -73,11 +76,12 @@ nav a{
 text-decoration:none;
 color:black;
 background:white;
-padding:8px 16px;
+padding:10px 24px;
 border-radius:12px;
 display: inline-block;
-transition:background 0.2s
-ease;
+transition:background 0.2s ease;
+flex:1;
+text-align:center;
 }
 
 nav a:hover {
