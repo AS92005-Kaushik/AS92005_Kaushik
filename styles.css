@@ -174,3 +174,8 @@ gap:20px;
 margin-bottom:20px;
 }
 
+.top-left-logo{
+width:90px;
+height:auto;
+pointer-events:none;
+}
