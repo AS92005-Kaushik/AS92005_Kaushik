@@ -82,11 +82,13 @@ display: inline-block;
 transition:background 0.2s ease;
 flex:1;
 text-align:center;
+transition: background 0.2s ease, transform 0.3s ease;
 }
 
 nav a:hover {
 background:#b9d9b0;
 cursor: pointer;
+transform: scale(1.05);
 }
 
 /* Top Section */
@@ -178,4 +180,12 @@ margin-bottom:20px;
 width:90px;
 height:auto;
 pointer-events:none;
+}
+
+.image-box img, .card img{
+transition:transform 0.3 ease;
+}
+
+.image-box img:hover, .card img:hover {
+transform: scale(1.03);
 }
