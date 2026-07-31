@@ -190,3 +190,30 @@ transition:transform 0.3s ease;
 .image-box img:hover, .card img:hover {
 transform: scale(1.03);
 }
+
+.contact-header{
+background:black;
+color:white;
+border-radius:30px;
+width:80%;
+margin:auto;
+padding:10px;
+text-align:center;
+
+}
+
+
+.contact-nav{
+display:flex;
+justify-content:center;
+gap:10px;
+margin:15px;
+}
+
+.contact-nav a{
+background:#d8ead0;
+padding:8px 15px;
+border-radius:20px;
+text-decoration:none;
+color:black;
+}
