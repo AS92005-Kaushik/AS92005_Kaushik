@@ -229,30 +229,31 @@ text-align: center;
 
 .contact-layout {
 display: flex;
-gap: 15px;
+gap: 20px;
 justify-content: center;
+max-width:900px;
+margin:20px auto;
 }
 
 .contact-boxes{
 display: grid;
 grid-template-columns: 1fr 1fr;
-gap:10px;
-width:45%;
+gap:15px;
+width:50%;
 }
 
 .contact-card{
 background:#d8ead0;
-border-radius:15px;
+border-radius:25px;
 padding:20px;
 text-align:center;
-font-size:12px;
 }
 
 .contact-form{
 background:#d8ead0;
-border-radius:15px;
-padding:15px;
-width:35%;
+border-radius:25px;
+padding:20px;
+width:50%;
 }
 
 .contact-form form{
@@ -262,10 +263,12 @@ flex-direction:column;
 
 
 .contact-form input, .contact-form textarea{
-margin-bottom:8px;
+width:100%;
+margin-bottom:12px;
 border:none;
 border-bottom: 2px solid black;
 background: transparent;
+padding: 4px 0;
 }
 
 .contact-form button{
