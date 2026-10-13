@@ -302,7 +302,7 @@ font-weight: bold;
 
 }
 
-*/ Mobile Responsiveness */
+/* Mobile Responsiveness */
 
 @media screen and (max-width: 768px) {
 nav{
@@ -327,7 +327,5 @@ width: 100%;
 
 .contact-boxes {
 grid-template-columns: 1fr;
-}
-}
 }
 
