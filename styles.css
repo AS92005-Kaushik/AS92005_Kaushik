@@ -157,7 +157,7 @@ margin: 25px auto;
 .nav-container {
 display:flex;
 justify-content: center;
-width:100;
+width:100%;
 margin-bottom:20px;
 }
 
@@ -273,7 +273,7 @@ font-weight: bold;
 
 /* Mobile Responsiveness */
 
-@media screen and (max-width: 768px) {
+@media: screen and (max-width: 768px) {
 nav{
 flex-wrap: wrap;
 width: 100%;
@@ -284,7 +284,7 @@ padding: 6px;
 nav a {
 padding:8px
 12px;
-font-size: 14px
+font-size: 14px;
 }
 .top-section, .middle-section,.bottom-section,.text-blocks-section,.contact-layout {
         flex-direction: column;
